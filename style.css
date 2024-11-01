@@ -1,12 +1,48 @@
 /* Estilos dos elementos */
 
-header{
+
+*{
+    margin: 0;
+    padding: 0  ;
+}
+header {
 
 }
 
-nav{
+nav  {
+    margin-top: 150px;
+ 
 
 }
+
+.Menu {
+
+    width: auto;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(7, 253, 253, 0.842);
+    list-style: none;
+    
+    
+
+}
+
+li {
+
+
+    margin-left: 75px;
+    color: rgb(233, 240, 247);
+ 
+
+}
+
 
 main{
 
