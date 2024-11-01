@@ -20,6 +20,51 @@ main{
 
 }
 
-footer{
-    
+
+.footer {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
+}
+
+.footer-item {
+    text-align: center;
+    margin: 10px;
+    max-width: 250px;
+}
+
+.footer-item span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
 }
