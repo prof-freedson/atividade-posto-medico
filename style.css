@@ -7,11 +7,15 @@
 }
 
 header {
+    background-color: rgba(15, 161, 161, 0.938);
+    height: 20px;
+    
 
 }
 .principal{
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 nav  {
     margin-top: 150px;
@@ -37,7 +41,7 @@ ul {
 
 
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(7, 253, 253, 0.938);
+    background-color: rgba(15, 161, 161, 0.938);
 
     list-style: none;
 
