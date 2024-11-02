@@ -80,7 +80,11 @@ main{
 }
 
 .tratamentos{
+    
+}
 
+.tipos-tratamento{
+    display: flex;
 }
 
 
