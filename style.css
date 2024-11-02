@@ -139,11 +139,6 @@ footer {
 }
 
 .footer-bottom {
-<<<<<<< HEAD
-    margin-top: 20px;
-    font-size: 12px;
-}
-=======
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,5 +148,3 @@ footer {
     margin-top: 15px;
     color: #ddd;
 }
-
->>>>>>> 2bc604a19873b72832e94965ff78adf36929f22f
