@@ -9,7 +9,10 @@
 header {
 
 }
-
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
 nav  {
     margin-top: 150px;
  
@@ -152,4 +155,7 @@ footer {
     margin-top: 15px;
     color: #ddd;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 00a564430aea414f9a210375a05fa1b3ad5bf382
