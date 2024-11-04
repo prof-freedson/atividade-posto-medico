@@ -198,3 +198,80 @@ footer {
 =======
 }
 >>>>>>> 8c1a082890522ffb7a13e27f2b9eb66e58c5ab23
+
+
+.container {
+    background-color: black;
+background: white;
+padding: 100px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px; /* Largura fixa para o formulário */
+max-width: 1200px; /* ou outro valor que você desejar */
+margin: 0 auto; /* centraliza horizontalmente */
+justify-content: center; /* centraliza horizontalmente */
+align-items: center; /* centraliza verticalmente */
+height: 100vh; /* ajusta a altura para ocupar toda a altura da tela */
+}
+
+input[type="text"], input[type="email"] {
+width: 100%;/* Largura total do campo */
+height: 50%; /* Largura total do campo */
+padding: 12px;
+margin: 1% ;
+border: none;
+border-radius: 0px;
+margin-bottom: 10px; /* Espaço abaixo do campo */
+}
+button {
+background-color: #2abdf7;
+color: white;
+border: none;
+padding: 25px;
+border-radius: %;
+cursor: pointer;
+width: 150%; /* Largura total do botão */
+margin-top: 60px;
+width: 100%;
+font-size: 1.3em;
+}
+button:hover {
+background-color: #00b7ff; /* Cor ao passar o mouse */
+}
+.name{
+border: none;
+width: 1%;
+border-radius: 0%;
+}
+.line {
+height: 2px; /* Altura da linha */
+margin: 5px 0; /* Espaço acima e abaixo da linha */
+}
+.login{
+text-align: center; /* Alinha o texto ao centro */
+margin-bottom: 20px; /* Espaço abaixo do título */
+color: #2abdf7;
+background: linear-gradient(90deg, #4a90e2, #0056b3); /* Degradê do azul claro ao azul
+escuro */
+-webkit-background-clip: text; /* Clip do fundo no texto */
+-webkit-text-fill-color: transparent; /* Texto transparente para mostrar o degradê */
+font-size: 2em; /* Tamanho do texto */
+}
+input::placeholder {
+font-weight: bold; /* Negrito para o placeholder */
+color: #999; /* Cor do placeholder */
+}
+.register-button {
+background-color: #5ee69b; /* Cor do botão de cadastro */
+margin-top: 100px; /* Espaço acima do botão de cadastro */
+padding: 15px;
+font-size: 0.9em;
+width: 50%; /* Largura total do botão */
+margin-right: 100px;
+border-radius: 5%;
+margin-top: 20px; /* Aumenta o espaço acima do botão */
+margin-left: 71px; /* Aumenta o espaço à esquerda do botão */
+margin-right: 10px; /* Aumenta o espaço à direita do botão */
+}
+
+
