@@ -1,0 +1,65 @@
+body{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+header{
+display: block;
+align-items: center;
+}
+.barra-superior {
+    background-color: rgb(18, 189, 189); 
+    height: 25px; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 10px; 
+}
+
+.Menu{
+    display: flex;
+    color: white;
+    background-color: rgb(18, 179, 179);
+    justify-content: center;
+}
+
+ul{
+    align-content: center;
+    align-items: center;
+
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 15px;
+    color: white;
+    font-weight: bold;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+
+height: 30px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.genesis img{
+    height: 50px;
+    width: auto;
+}
+.direita{
+    display: block;
+    padding-left: 15px;
+    margin: 0 25px 0 0;
+}
+.direita h2, .direita p{
+    padding: 5px;
+    margin: 0;
+    text-align: right;
+}
