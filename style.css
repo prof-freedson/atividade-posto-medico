@@ -1,8 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    height: 100vh; /* Ocupa toda a altura da tela */
+/* Estilos dos elementos */
+
+
+*{
+    margin: 0;
+    padding: 0  ;
+}
+
+header {
+    background-color: rgba(15, 161, 161, 0.938);
+    height: 20px;
+    
+
+}
+.principal{
     display: flex;
+<<<<<<< HEAD
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     }
@@ -26,6 +38,92 @@ body {
     background-color: #2abdf7;
     color: white;
 <<<<<<< HEAD
+=======
+    justify-content: space-between;
+    padding-top: 25px;
+}
+nav  {
+    margin-top: 150px;
+ 
+
+}
+
+.Menu {
+
+    width: auto;
+   
+
+
+     
+
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(15, 161, 161, 0.938);
+
+    list-style: none;
+
+
+    align-items: center;
+    align-self:center;
+    justify-content: center;
+
+    padding: 15px;
+  
+    
+ 
+
+    
+    
+
+}
+
+li {
+    margin-left: 75px;
+    color: rgb(233, 240, 247);
+    border-right: 3px solid rgba(255, 255, 255, 0.89);
+    padding-right: 16px;
+   
+  
+  
+ 
+
+}
+
+
+
+
+
+
+
+main{
+
+}
+
+.especialidades{
+
+}
+
+.tratamentos{
+    
+}
+
+.tipos-tratamento{
+    display: flex;
+}
+
+
+footer {
+    background-color: #3CB0B6;
+    color: white;
+>>>>>>> 8c1a082890522ffb7a13e27f2b9eb66e58c5ab23
     padding: 20px 10%;
 }
 
@@ -42,13 +140,19 @@ body {
 .footer-logo img {
     width: 50px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     margin-right: 200px;
+=======
+>>>>>>> 8c1a082890522ffb7a13e27f2b9eb66e58c5ab23
 }
 
 .footer-logo h2 {
     font-size: 1.5em;
     margin: 5px 0;
+<<<<<<< HEAD
     margin-top: -53px;
+=======
+>>>>>>> 8c1a082890522ffb7a13e27f2b9eb66e58c5ab23
 }
 
 .footer-logo p {
@@ -88,5 +192,9 @@ body {
     font-size: 0.8em;
     margin-top: 15px;
     color: #ddd;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 8c1a082890522ffb7a13e27f2b9eb66e58c5ab23
