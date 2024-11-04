@@ -14,7 +14,7 @@ header {
 }
 .principal{
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: space-between; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     }
     .container {
