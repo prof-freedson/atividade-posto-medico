@@ -1,74 +1,161 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    height: 100vh; /* Ocupa toda a altura da tela */
+/* Estilos dos elementos */
+
+
+*{
+    margin: 0;
+    padding: 0  ;
+}
+
+header {
+    background-color: rgba(15, 161, 161, 0.938);
+    height: 20px;
+    
+
+}
+.principal{
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    }
-    .container {
-    background: white;
-    padding: 100px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px; /* Largura fixa para o formulário */
-    }
-    input[type="text"], input[type="email"] {
-    width: 100%;/* Largura total do campo */
-    height: 50%; /* Largura total do campo */
-    padding: 12px;
-    margin: 1% ;
-    border: none;
-    border-radius: 0px;
-    margin-bottom: 10px; /* Espaço abaixo do campo */
-    }
-    button {
-    background-color: #2abdf7;
-    color: white;
-    border: none;
-    padding: 25px;
-    border-radius: %;
-    cursor: pointer;
-    width: 150%; /* Largura total do botão */
-    margin-top: 60px;
-    width: 100%;
-    font-size: 1.3em;
-    }
-    button:hover {
-    background-color: #00b7ff; /* Cor ao passar o mouse */
-    }
-    .name{
-    border: none;
-    width: 1%;
-    border-radius: 0%;
-    }
-    .line {
-    height: 2px; /* Altura da linha */
-    margin: 5px 0; /* Espaço acima e abaixo da linha */
-    }
-    .login{
-    text-align: center; /* Alinha o texto ao centro */
-    margin-bottom: 20px; /* Espaço abaixo do título */
-    color: #2abdf7;
-    background: linear-gradient(90deg, #4a90e2, #0056b3); /* Degradê do azul claro ao azul
-    escuro */
-    -webkit-background-clip: text; /* Clip do fundo no texto */
-    -webkit-text-fill-color: transparent; /* Texto transparente para mostrar o degradê */
-    font-size: 2em; /* Tamanho do texto */
-    }
-    input::placeholder {
-    font-weight: bold; /* Negrito para o placeholder */
-    color: #999; /* Cor do placeholder */
-    }
-    .register-button {
-    background-color: #5ee69b; /* Cor do botão de cadastro */
-    margin-top: 100px; /* Espaço acima do botão de cadastro */
+    justify-content: space-between;
+    padding-top: 25px;
+}
+nav  {
+    margin-top: 150px;
+ 
+
+}
+
+.Menu {
+
+    width: auto;
+   
+
+
+     
+
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(15, 161, 161, 0.938);
+
+    list-style: none;
+
+
+    align-items: center;
+    align-self:center;
+    justify-content: center;
+
     padding: 15px;
+  
+    
+ 
+
+    
+    
+
+}
+
+li {
+    margin-left: 75px;
+    color: rgb(233, 240, 247);
+    border-right: 3px solid rgba(255, 255, 255, 0.89);
+    padding-right: 16px;
+   
+  
+  
+ 
+
+}
+
+
+
+
+
+
+
+main{
+
+}
+
+.especialidades{
+
+}
+
+.tratamentos{
+    
+}
+
+.tipos-tratamento{
+    display: flex;
+}
+
+
+footer {
+    background-color: #3CB0B6;
+    color: white;
+    padding: 20px 10%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.footer-logo h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.footer-logo p {
     font-size: 0.9em;
-    width: 50%; /* Largura total do botão */
-    margin-right: 100px;
-    border-radius: 5%;
-    margin-top: 20px; /* Aumenta o espaço acima do botão */
-    margin-left: 71px; /* Aumenta o espaço à esquerda do botão */
-    margin-right: 10px; /* Aumenta o espaço à direita do botão */
-    }
+}
+
+.footer-info {
+    display: flex;
+    gap: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-item i {
+    font-size: 1.5em;
+}
+
+.info-item h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    font-size: 0.9em;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    font-size: 0.8em;
+    margin-top: 15px;
+    color: #ddd;
+}
