@@ -7,18 +7,68 @@
 }
 
 header {
-    background-color: rgba(15, 161, 161, 0.938);
+
     height: 20px;
-    
 
 }
-.principal{
+.principal{ /*Não mexam aqui!! estilização das divs do header*/
     display: flex;
-    justify-content: space-between; /* Centraliza horizontalmente */
+<<<<<<< HEAD
+    justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+=======
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.barra-superior { /*não mexam aqui!!  estilização da barra superior */
+    background-color: rgb(18, 189, 189); 
+    height: 25px; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 10px; 
+}
+.barra-superior .ico{ /*Não mexam aqui!! estilização dos icones da barra superior */
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+ul{
+    align-content: center;
+    align-items: center;
+
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px 0 15px;
+    color: white;
+    font-weight: bold;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+
+    height: 40px;
+>>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
     }
 
-    .container {
+.Menu{ /*Não mexam aqui!! estilização do menu*/
+    display: flex;
+    color: white;
+    background-color: rgb(18, 179, 179);
+    justify-content: center;
+    padding: 15px;
+}
+
+.container {
     background: white;
     padding: 100px;
     border-radius: 5px;
@@ -34,12 +84,14 @@ header {
     border-radius: 0px;
     margin-bottom: 10px; /* Espaço abaixo do campo */
     }
-    button {
+
+button {
     background-color: #2abdf7;
     color: white;
     justify-content: space-between;
     padding-top: 25px;
 }
+
 nav  {
     margin-top: 150px;
  
@@ -49,38 +101,21 @@ nav  {
 .Menu {
 
     width: auto;
-   
-
-
-     
 
 }
 
 ul {
-
     display: flex;
     flex-direction: row;
     font-size: 18px;
-
-
     font-family: 'Times New Roman', Times, serif;
     background-color: rgba(15, 161, 161, 0.938);
-
     list-style: none;
-
-
     align-items: center;
     align-self:center;
     justify-content: center;
-
     padding: 15px;
   
-    
- 
-
-    
-    
-
 }
 
 li {
@@ -88,11 +123,6 @@ li {
     color: rgb(233, 240, 247);
     border-right: 3px solid rgba(255, 255, 255, 0.89);
     padding-right: 16px;
-   
-  
-  
- 
-
 }
 
 
@@ -137,13 +167,19 @@ footer {
 .footer-logo img {
     width: 50px;
     margin-bottom: 5px;
+<<<<<<< HEAD
+=======
     margin-right: 200px;
+>>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
 }
 
 .footer-logo h2 {
     font-size: 1.5em;
     margin: 5px 0;
+<<<<<<< HEAD
+=======
     margin-top: -53px;
+>>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
 }
 
 .footer-logo p {
@@ -184,6 +220,8 @@ footer {
     margin-top: 15px;
     color: #ddd;
 }
+<<<<<<< HEAD
+=======
 
 
 
@@ -262,3 +300,4 @@ margin-right: 10px; /* Aumenta o espaço à direita do botão */
 }
 
 
+>>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
