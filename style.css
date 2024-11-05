@@ -17,6 +17,7 @@ header {
     justify-content: space-between; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     }
+
     .container {
     background: white;
     padding: 100px;
