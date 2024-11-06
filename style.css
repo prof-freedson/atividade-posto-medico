@@ -13,12 +13,9 @@ header {
 }
 .principal{ /*Não mexam aqui!! estilização das divs do header*/
     display: flex;
-<<<<<<< HEAD
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-=======
-    justify-content: space-between; 
-    align-items: center; 
+
 }
 
 .barra-superior { /*não mexam aqui!!  estilização da barra superior */
@@ -57,7 +54,7 @@ li a{
 nav{
 
     height: 40px;
->>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
+
     }
 
 .Menu{ /*Não mexam aqui!! estilização do menu*/
@@ -125,12 +122,6 @@ li {
     padding-right: 16px;
 }
 
-
-
-
-
-
-
 main{
 
 }
@@ -165,29 +156,25 @@ footer {
 }
 
 .footer-logo img {
-    width: 50px;
-    margin-bottom: 5px;
-<<<<<<< HEAD
-=======
     margin-right: 200px;
->>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
 }
 
 .footer-logo h2 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     margin: 5px 0;
-<<<<<<< HEAD
-=======
-    margin-top: -53px;
->>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
+    margin-left: 20px;
+    margin-top: -68px;
 }
 
 .footer-logo p {
     font-size: 0.9em;
+    margin-left: 33px;
+    margin-top: -9px;
 }
 
 .footer-info {
     display: flex;
+    align-items: flex-start;
     gap: 30px;
 }
 
@@ -197,12 +184,22 @@ footer {
     gap: 10px;
 }
 
+.icon {
+    font-size: 50px; /* Tamanho do ícone */
+    filter: grayscale(100%); /* Aplica efeito de preto e branco */
+    transition: filter 0.3s ease; /* Adiciona uma transição suave */
+  }
+  
+  .icon:hover {
+    filter: grayscale(0%); /* Restaura a cor original ao passar o mouse */
+  }
+
 .info-item i {
     font-size: 1.5em;
 }
 
 .info-item h3 {
-    font-size: 1em;
+    font-size: 1.0em;
     margin-bottom: 5px;
 }
 
@@ -219,12 +216,9 @@ footer {
     font-size: 0.8em;
     margin-top: 15px;
     color: #ddd;
+    background-color: #282c2d24;
+    padding: 5px
 }
-<<<<<<< HEAD
-=======
-
-
-
 
 .container {
     background-color: black;
@@ -300,4 +294,3 @@ margin-right: 10px; /* Aumenta o espaço à direita do botão */
 }
 
 
->>>>>>> 7db83f3c035b7cccd426ba884340034e6b6e05c7
