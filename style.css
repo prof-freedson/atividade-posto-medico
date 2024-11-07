@@ -54,14 +54,14 @@ header .direita h2 {
 }
 
 header .direita p {
-    color: #666;
+    color: #47c1af;
     font-size: 14px;
 }
 
 ul{
     list-style: none;
     display: flex;
-    justify-content: center;
+    width: 100%;
 }
 
 li{
@@ -79,7 +79,8 @@ nav{
     height: auto;
 }
 nav .Menu ul li a:hover {
-    color: #d4f4f3;
+    color: #c1dfdf;
+    text-shadow: 5px 5px 20px #10423e;
 }
 
 .banner { /* banner */
@@ -99,7 +100,7 @@ nav .Menu ul li a:hover {
     color: white;
     background-color: rgb(18, 179, 179);
     justify-content: center;
-    padding: 15px;
+    padding: 2px;
 }
 
 .container {
@@ -275,9 +276,6 @@ footer {
     background-color: #282c2d24;
     padding: 5px
 }
-
-
-
 
 .container {
     background-color: black;
